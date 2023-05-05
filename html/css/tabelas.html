@@ -13,6 +13,7 @@
         th {
             border: 1px solid black;
             padding: 3px;
+            text-align: left;
 
         }
 
@@ -22,10 +23,19 @@
         }
         caption {
             font-style: italic ;
-            text-align: left;
+            text-align: right;
             font-size: 14px;
             margin-top: 5px;
             caption-side: bottom;
+        }
+        tfoot {
+            background: gray;
+            font-style: italic;
+            
+        }
+        thead {
+            background: gray;
+            
         }
     </style>
 </head>
@@ -63,6 +73,19 @@
                 <td> corpo three</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2"> </td>
+               
+                <td> Valor</td>
+            </tr>
+
+            <tr>
+               
+                
+                <td> TOTAL: 555R$</td>
+            </tr>
+        </tfoot>
     </table>
 
 </body>
