@@ -23,6 +23,6 @@ a:active {
     background: darkorange;
 }
 
-div p:last-child {
-    color: green;
+p:not(.meio) {
+    color: blue;
 }
