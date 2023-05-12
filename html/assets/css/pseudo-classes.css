@@ -9,3 +9,20 @@
 .titulo:hover {
     background: red;
 }
+
+a:link {
+    color: red;
+
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    background: darkorange;
+}
+
+div p:last-child {
+    color: green;
+}
