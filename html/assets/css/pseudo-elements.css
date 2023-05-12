@@ -1,0 +1,29 @@
+ul li::after {
+    content: " -";
+    color: red;
+}
+
+
+ul li::before {
+    content: " Brasil ";
+    color: darkgoldenrod;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+p::first-line {
+    color: red;
+}
+
+p::selection {
+    background: black;
+    color: white;
+}
+
+::placeholder {
+    color: red;
+}

@@ -23,6 +23,6 @@ a:active {
     background: darkorange;
 }
 
-p:not(.meio) {
+div p:nth-child(3n + 5) {
     color: blue;
 }
