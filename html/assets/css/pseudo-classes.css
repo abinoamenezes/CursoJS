@@ -1,0 +1,11 @@
+* {margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    transition: all 1s ease-in-out;
+}
+
+.titulo:hover {
+    background: red;
+}
