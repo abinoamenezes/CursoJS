@@ -1,0 +1,16 @@
+#pp {
+    color: blueviolet; 
+}
+
+.paragrafo {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+p {
+    color: green !important ;
+}
+
