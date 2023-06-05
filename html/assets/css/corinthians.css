@@ -9,6 +9,7 @@
     background-color:  #f1f1f1;
     padding-left: 380px;
     position: fixed;
+    width: 100%;
     
 }
 ul.menu li {
@@ -31,5 +32,33 @@ h1.titulo {
     background-color: black;
     color: white;
     padding-left: 38%;
+    display: flex;
+   align-items: center;
     
+}
+.historia {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+section#historia h2 {
+margin-top: 50px;
+}
+
+.paragrafo {
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+}
+#icone {
+    width: 50px;
+    height: 50px;
+}
+
+.subtitulo-first {
+    margin-top: 50px;
+}
+
+.subtitulo {
+    margin-top: 20px;
 }
