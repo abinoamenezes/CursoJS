@@ -7,10 +7,12 @@
     <style>
         .conteineir {
            display: grid;
-           grid-template-rows: 100px 200px;
-           grid-template-columns: 1fr 2fr;
+           grid-template-rows: 100px 100px;
+           grid-template-columns: 1fr 1fr;
            justify-content: center;
-           align-items: end;
+           row-gap: 20px;
+           column-gap: 10px;
+          
         }
         .item3 {
             grid-row: 3;
@@ -18,7 +20,9 @@
         .item2 {
             grid-row: 2
         }
-     
+        .conteineir * {
+            background-color: red;
+     }
     </style>
 </head>
 <body>
@@ -26,6 +30,8 @@
         <div class="item1"> item 1</div>
         <div class="item2"> item 2</div>
         <div class="item3"> item 3</div>
+        <div class="item4"> item 4</div>
+        <div class="item5"> item 5</div>
     </div>
 </body>
 </html>
