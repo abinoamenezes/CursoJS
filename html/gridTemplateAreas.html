@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "sidebar content"
+            "footer footer"
+
+            ;
+        }
+        .item1{
+            grid-area: header;
+        }
+
+        .intem2 {
+            grid-area: sidebar;
+        }
+
+        .intem3 {
+            grid-area: footer;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item1">item1</div>
+        <div class="item2">item2</div>
+        <div class="item3">item3</div>
+    </div>
+</body>
+</html>
